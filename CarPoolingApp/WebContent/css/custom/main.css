@@ -1,0 +1,315 @@
+@CHARSET "UTF-8";
+
+body {
+	font: 70% "Trebuchet MS", sans-serif;
+	margin: 100 0px;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+#desc {
+	background-color: #db4865;
+	width: 200px;
+	float: left;
+}
+
+#footer {
+	background-color: #ddd;
+	clear: both;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	
+}
+
+#header {
+	background-image: url("images/bannerfans_6227544.jpg");
+	height: 100px;
+}
+
+#main {
+	
+	background: #e7e7e7;
+	overflow: hidden;
+}
+
+#result {
+	background: #e7e7e7;
+	height: 500px;
+	
+}
+
+#rightcontainer {
+	height: 300px;
+	width: 500px;
+	overflow: auto;
+}
+
+#reg {
+	border-left: 3px;
+	border-left-color: gray;
+}
+
+#search {
+	background: #93c3cd
+		url(images/ui-bg_diagonals-small_50_93c3cd_40x40.png) 50% 50% repeat;
+	font-weight: bold;
+	color: #333333;
+	border: 1px solid #93c3cd;
+	width: 500px;
+	margin-right: -200px;
+	border-right: 200px solid #db4865;
+}
+
+#submit {
+	background: #db4865
+		url(images/ui-bg_diagonals-small_40_db4865_40x40.png) 50% 50% repeat;
+	color: white;
+	font: 70%
+}
+
+#info-container{
+	
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	
+}
+.info-container-male {
+	padding: 10px;
+	width: 300px;
+	height: 100px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-box-shadow: 0px 0px 1px #000000;
+	-webkit-box-shadow: 0px 0px 1px #000000;
+	box-shadow: 0px 0px 1px #000000;
+	/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=    '#ffffff',
+		endColorstr=    '#c9deff' );
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#c9deff')";
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	background-image: -moz-linear-gradient(top, #ffffff, #c9deff);
+	background-image: -ms-linear-gradient(top, #ffffff, #c9deff);
+	background-image: -o-linear-gradient(top, #ffffff, #c9deff);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff),
+		to(#c9deff) );
+	background-image: -webkit-linear-gradient(top, #ffffff, #c9deff);
+	background-image: linear-gradient(top, #ffffff, #c9deff);
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+	/*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+}
+
+.info-container-female {
+	padding: 10px;
+	width: 300px;
+	height: 100px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-box-shadow: 0px 0px 1px #000000;
+	-webkit-box-shadow: 0px 0px 1px #000000;
+	box-shadow: 0px 0px 1px #000000;
+	/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=    '#ffffff',
+		endColorstr=    '#ffc9de' );
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#ffc9de')";
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	background-image: -moz-linear-gradient(top, #ffffff, #ffc9de);
+	background-image: -ms-linear-gradient(top, #ffffff, #ffc9de);
+	background-image: -o-linear-gradient(top, #ffffff, #ffc9de);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff),
+		to() #ffc9de ) );
+	background-image: -webkit-linear-gradient(top, #ffffff, #ffc9de);
+	background-image: linear-gradient(top, #ffffff, #ffc9de);
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+	/*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+}
+
+.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl {
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-khtml-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr {
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-khtml-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl {
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-khtml-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br {
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-khtml-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#img {
+	float: left;
+	margin-right: 30px;
+}
+
+#submit {
+	background-color: orange;
+	color: white;
+}
+
+#selectors {
+	border: 1px solid #93c3cd;
+	background: #93c3cd
+		url(images/ui-bg_diagonals-small_50_93c3cd_40x40.png) 50% 50% repeat;
+	font-weight: bold;
+	color: #333333;
+	font: 130% "Trebuchet MS", sans-serif;
+	padding: 10 10 10 10px;
+	height: 70px;
+}
+
+#menu{
+	
+	padding: 20px 0;
+	//width: 700px;
+	
+}
+
+#menu td{
+	
+	
+	height: 20px;
+	
+	
+}
+
+#offercontainer {
+	width: 500px;
+	overflow: auto;
+	margin-top: 30px; margin-left: 30px; margin-right: 30px;
+}
+
+ #offercontainer table {
+		
+
+	border-collapse: collapse;
+	width: 100%;
+} 
+
+#offercontainer table td,#offercontainer table th {
+	border: 1px solid #eee;
+	padding: .6em 10px;
+	text-align: left;
+}
+
+#logindialog label,#logindialog input {
+	display: block;
+}
+
+
+
+#logindialog input.text {
+	margin-bottom: 12px;
+	width: 95%;
+	padding: .4em;
+}
+
+#dialog label,#dialog input {
+	display: block;
+}
+
+#dialog input.text {
+	margin-bottom: 12px;
+	width: 80%;
+	padding: .4em;
+}
+
+#signupdialog input.text {
+	margin-bottom: 12px;
+	width: 95%;
+	padding: .4em;
+}
+
+#signupdialog label,#signupdialog input {
+	display: block;
+}
+
+#editdialog input.text {
+	margin-bottom: 12px;
+	width: 95%;
+	padding: .4em;
+}
+
+#editdialog label,#editdialog input {
+	display: block;
+}
+
+
+fieldset {
+	padding: 0;
+	border: 0;
+	margin-top: 25px;
+}
+
+h1 {
+	font-size: 1.2em;
+	margin: .6em 0;
+}
+
+div#users-contain {
+	width: 700px;
+	overflow: auto;
+	margin-top: 30px; margin-left: 30px; margin-right: 30px;
+}
+
+div#users-contain table {
+	margin: 1em 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+div#users-contain table td,div#users-contain table th {
+	border: 1px solid #eee;
+	padding: .6em 10px;
+	text-align: left;
+}
+
+.ui-dialog .ui-state-error {
+	padding: .3em;
+}
+
+.validateTips {
+	border: 1px solid transparent;
+	padding: 0.3em;
+}
